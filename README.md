@@ -10,4 +10,4 @@ makepkginfo --nopkg \
  --name Enable_SSH \
  --pkgvers 1.0 > Enable_SSH-1.0.plist
 
-Add <key>uninstallable</key><true/> to the plist and copy to the munki repo.  Remember to makecatalogs or it didn't happen.
+Add `<key>uninstallable</key><true/>` to the plist and copy to the munki repo.  Remember to makecatalogs or it didn't happen.
